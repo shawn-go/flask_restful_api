@@ -8,9 +8,10 @@ from flask.views import MethodView
 
 from factory import create_app
 from models import Post, Comment
+import config
 
 
-app = create_app()
+app = create_app(config)
 
 @app.route('/')
 def hello_rest():
@@ -188,5 +189,6 @@ app.add_url_rule('/posts/<pk>/', view_func=PostDetailGetUpdateDeleteView.as_view
 if __name__ == '__main__':
     app.run(
         host = '0.0.0.0',
-        port = 5000
+        port = 5000,
+        debug = True
     )
