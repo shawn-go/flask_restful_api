@@ -1,9 +1,9 @@
 # flask_restful_api
-Provide the restful api to access the mongodb
+Provide the restful api to access the mongodb  
 **HTTP Methods GET, POST, PUT, PATCH, DELETE provided**
 
 ## Environment
-Python Version: 3.6.5
+Python Version: 3.6.5  
 Deployed Cloud Server: Google App Engine
 
 ## API (Class-Based Views)
