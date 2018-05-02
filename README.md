@@ -13,7 +13,7 @@ Deployed Cloud Server: Google App Engine
 * Detail (單筆) - **Provide get, put, patch, and delete method**
   * GET: Retrieve a detailed post
   * PUT: Update a detailed post
-  * PATCH: Update the comments of post
+  * PATCH: Update the comments of post
   * DELETE: Delete the post
 
 ## Models
