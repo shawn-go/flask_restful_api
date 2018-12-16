@@ -4,7 +4,9 @@ Provide the restful api to access the mongodb
 
 ## Environment
 Python Version: 3.6.5  
-Deployed Cloud Server: Google App Engine
+Flask version: 0.12.2  
+mongoengine: 0.15.0 (Communication between api and mongodb using ORM package)  
+Deployment: GAE (Google App Engine)
 
 ## API (Class-Based Views)
 * List (多筆) - **Provide get, post method**
